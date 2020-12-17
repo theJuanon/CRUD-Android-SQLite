@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.crud.MainActivity">
+    <item
+        android:id="@+id/opMenuAutos"
+        android:orderInCategory="101"
+        android:title="Autos" />
+    <item
+        android:id="@+id/opMenuClientes"
+        android:orderInCategory="102"
+        android:title="Clientes" />
+    <item
+        android:id="@+id/opMenuServicios"
+        android:orderInCategory="103"
+        android:title="Servicios" />
+    <item
+        android:id="@+id/opMenuReportes"
+        android:orderInCategory="104"
+        android:title="Reportes" />
+</menu>
